@@ -16,7 +16,7 @@ const Homepage = async ({
 					fill
 				/>
 			</div>
-			<ProductList category={category} />
+			<ProductList category={category} params="homepage" />
 		</div>
 	);
 };
